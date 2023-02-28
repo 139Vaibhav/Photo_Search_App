@@ -20,9 +20,9 @@ const style = {
     p: 4,
     maxHeight: '85%'
 };
-
+console.log("The key is ", process.env.REACT_APP_ACCESS_KEY);
 const unsplash = new Unsplash({
-    accessKey: "q7lozWCfZdigPHRnuIrMGyIDzoZawouOg0sD0cySEEc",
+    accessKey: process.env.REACT_APP_ACCESS_KEY,
 });
 export default function SearchPhotos() {
 
