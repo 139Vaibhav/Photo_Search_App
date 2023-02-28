@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import Unsplash, { toJson } from "unsplash-js";
 import Box from '@mui/material/Box';
-import Chip from '@mui/material/Chip';
 import Modal from '@mui/material/Modal';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Like from "./images/like.jpg";
-import { Icon } from "@mui/material";
-import { display } from "@mui/system";
 
 const style = {
     position: 'absolute',
@@ -118,7 +115,7 @@ export default function SearchPhotos() {
                 <Box sx={style}>
                     <img
                         className="modal-image"
-                        alt="Modal Image"
+                        alt="Modal ka chitra"
                         src={modalimg}
                         height='400'
                         width="100%"
