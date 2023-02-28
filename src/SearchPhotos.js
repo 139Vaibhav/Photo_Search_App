@@ -102,7 +102,7 @@ export default function SearchPhotos() {
                                 {pic.user.name}
                             </div>
                             <div className="chip">
-                                <img src={Like} alt="Like" style={{ width: "36px", height: "36px", marginTop: "0.1rem" }}></img>
+                                <img className="mob-img" src={Like} alt="Like" ></img>
                                 {pic.likes}
                             </div>
                         </div>
@@ -129,7 +129,7 @@ export default function SearchPhotos() {
                             {modalname}
                         </div>
                         <div className="chip">
-                            <img src={Like} alt="Like" style={{ width: "36px", height: "36px", marginTop: "0.1rem" }}></img>
+                            <img className="mob-img" src={Like} alt="Like" ></img>
                             {modallikes}
                         </div>
                         <div className="chip">
